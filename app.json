@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "GreenCircle",
+    "slug": "greencircle",
+    "scheme": "com.s1120258.greencircle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "userInterfaceStyle": "automatic",
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.s1120258.greencircle",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs to access your location."
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "permissions": ["ACCESS_FINE_LOCATION"]
+      },
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"],
+      "package": "com.s1120258.greencircle"
+    },
+    "web": {},
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/RedHatDisplay-Regular.ttf",
+            "./assets/fonts/RedHatText-Regular.ttf"
+          ]
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
