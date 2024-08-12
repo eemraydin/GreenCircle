@@ -26,20 +26,21 @@ GreenCircle is a mobile application that empowers users to take part in nature c
 - PM2
 - NGINX
 
+#### Additional Technologies:
+- GitHub Actions
+- OAuth
+- Google Maps API
+- SecureStore(Expo)
+
 
 ## Features Implemented 
-- Responsive design ensuring compatibility across devices
-- User authentication and authorization using JWT for secure access to different functionalities
-- CRUD (Create, Read, Update, Delete) operations for managing tools, parts, and projects
-- Real-time inventory management for stock issues and low inventory levels
-- Project management functionality allowing instructors to create, edit, and assign projects to teams
-- Search and filter functionality to easily locate specific tools, parts, or projects
-- Dashboard providing an overview of inventory status, project progress, and Issues
-- Integration with external APIs for additional functionalities or data retrieval
-- Reporting and analytics features to track usage, identify trends, and make informed decisions
-- Version control system integration to track changes and maintain a history of modifications
-- Continuous integration and deployment (CI/CD) pipeline for seamless updates and improvements
 
+- User Authentication: Secure login and registration using JWT, with OAuth integration for social logins.
+- Event Management: CRUD operations for managing cleanup events, including creating, updating, and deleting events.
+- Real-Time Data: Integration with the waste tap collection counter to display real-time data.
+- User Engagement: Growth journey system that rewards users as they progress from Sapling to Evergreen.
+- Achievement System: Users can earn and display badges and achievements for their contributions.
+- Search and Filter: Allows users to easily find events based on location, date, and type of cleanup.
 
 
 
